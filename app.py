@@ -819,7 +819,7 @@ def create_correlation_targets_page(theme_data):
     )
     
     # 3. Stress Level vs Sleep Duration Box Plot
-    stress_levels = sorted(df["Stress Level"].unique(), reverse=True)
+    stress_levels = sorted(df["Sleep Disorder"].unique(), reverse=True)
     
     # Generate colors from reversed purple palette
     num_levels = len(stress_levels)
@@ -829,7 +829,7 @@ def create_correlation_targets_page(theme_data):
     
     # Add box traces for each stress level
     for i, stress in enumerate(stress_levels):
-        subset = df[df["Stress Level"] == stress]
+        subset = df[df["Sleep Disorder"] == stress]
 
         fig_stress_box.add_trace(go.Box(
             x=[stress] * len(subset),
@@ -852,14 +852,14 @@ def create_correlation_targets_page(theme_data):
     # Style the plot with dashboard theme compatibility
     fig_stress_box.update_layout(
         title=dict(
-            text="<b>Impact of stress level on sleep duration</b>",
+            text="<b>Impact of sleep disorder on sleep duration</b>",
             x=0.5,
             xanchor='center',
             y=0.98,  # Positioned higher
             font=dict(size=14)  # Smaller font
         ),
         xaxis=dict(
-            title="Stress Level",
+            title="Sleep Disorder",
             categoryorder='array',
             categoryarray=stress_levels,
             showgrid=True,
