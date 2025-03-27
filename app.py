@@ -532,8 +532,8 @@ def create_distributions_page(theme_data):
     fig_health_metrics.update_layout(
         title=dict(
             text="<b>Health Metrics by Category</b>",
-            x=0.2,  # Move title to the left (was 0.8)
-            y=0.95,  # Lower the title slightly (was 0.98)
+            x=0.25,  # Move title to the left (was 0.8)
+            y=0.90,  # Lower the title slightly (was 0.98)
             yanchor="bottom",
             xanchor='center'
         ),
