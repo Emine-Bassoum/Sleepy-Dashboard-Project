@@ -44,3 +44,10 @@ A visualization dashboard for sleep health data built with Plotly Dash.
 ## Data
 
 The dashboard uses the Sleep Health and Lifestyle dataset, which is already included in the repository.
+
+## Made with ❤️ by
+- Mohamed Emine BASSOUM
+- Marouane Guemimi
+- Chloé Wiatt
+- Lucas Autef
+- Arthur Jeanne
