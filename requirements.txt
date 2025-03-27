@@ -23,9 +23,6 @@ fonttools==4.56.0
 holoviews==1.20.2
 idna==3.10
 importlib_metadata==8.6.1
-ipykernel==6.29.5
-ipython==9.0.2
-ipython_pygments_lexers==1.1.1
 itsdangerous==2.2.0
 jedi==0.19.2
 Jinja2==3.1.6
