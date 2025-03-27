@@ -25,3 +25,7 @@ steps:
 # Store images
 images:
 - 'gcr.io/$PROJECT_ID/viz-dashboard:$COMMIT_SHA'
+
+# Add logging configuration
+options:
+  logging: CLOUD_LOGGING_ONLY
