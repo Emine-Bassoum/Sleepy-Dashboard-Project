@@ -1,6 +1,6 @@
 # Sleep Health and Lifestyle Dashboard
 
-![Dashboard Screenshot](https://i.imgur.com/your-screenshot-url.jpg)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/a2442f24-89f8-4193-b410-98d25ae12330)
 
 A data visualization dashboard exploring the relationship between sleep quality, lifestyle factors, and health metrics. This interactive web application provides insights into how various factors like physical activity, stress levels, and occupational characteristics affect sleep quality and overall health.
 
